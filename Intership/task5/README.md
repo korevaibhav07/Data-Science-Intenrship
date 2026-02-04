@@ -1,18 +1,15 @@
-## Task 5 – Sales & Customer Data Analysis
+## Day 5 – Customer Segmentation Using Sales Data
 
-In this task, sales data was analyzed to understand business performance using data science techniques.
+This task focuses on segmenting customers based on their purchasing behavior using data science techniques.
 
 ### Work Done
-- Created a simulated sales dataset.
-- Calculated revenue for each order.
-- Performed exploratory data analysis (EDA).
-- Analyzed sales performance by product and region.
-- Generated customer-level and product-level KPIs.
-- Visualized revenue trends and business insights.
-- Stored analysis outputs in CSV format.
+- Loaded sales data from previous analysis.
+- Created customer-level features such as revenue, orders, and quantity.
+- Applied data scaling for clustering.
+- Used K-Means clustering to segment customers.
+- Analyzed customer groups based on business metrics.
+- Saved segmented customer data for further analysis.
 
-### Files
-- task5.ipynb – Jupyter notebook with complete analysis
-- outputs/sales_data.csv – Raw sales dataset
-- outputs/customer_summary.csv – Customer-level KPIs
-- outputs/product_summary.csv – Product-level KPIs
+### Outputs
+- customer_features.csv – Engineered features for each customer
+- customer_segments.csv – Customer clusters with segment labels
