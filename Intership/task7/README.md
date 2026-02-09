@@ -1,4 +1,4 @@
-## Task 6 – Customer Segmentation
+## Task 7 – Customer Segmentation
 
 In this task, customer segmentation was performed using sales data to identify different customer groups based on purchasing behavior.
 
